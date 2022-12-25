@@ -129,7 +129,7 @@ consider using `ProxyProvider`:
 ```dart
 int count;
 
-ProxyProvider0(
+ProxyProvider(
   update: (_, __) => MyModel(count),
   child: ...
 )
